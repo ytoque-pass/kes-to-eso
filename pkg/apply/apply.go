@@ -23,7 +23,7 @@ func NewApplyOptions() *ApplyOptions {
 		AllNamespaces: false,
 		AllSecrets:    false,
 		Name:          "",
-		TargetOwner:   "kubernetes-external-secrets",
+		TargetOwner:   "external-secrets-kubernetes-external-secrets",
 	}
 	return &a
 }

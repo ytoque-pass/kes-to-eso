@@ -50,7 +50,7 @@ type KesToEsoOptions struct {
 func NewOptions() *KesToEsoOptions {
 	t := KesToEsoOptions{
 		Namespace:       "default",
-		DeploymentName:  "kubernetes-external-secrets",
+		DeploymentName:  "external-secrets-kubernetes-external-secrets",
 		ContainerName:   "kubernetes-external-secrets",
 		InputPath:       "",
 		OutputPath:      "",

@@ -104,7 +104,7 @@ func init() {
 	generateCmd.Flags().Bool("to-stdout", false, "print generated yamls to STDOUT")
 	generateCmd.Flags().StringP("input", "i", "", "path to lookup for KES yamls")
 	generateCmd.Flags().StringP("output", "o", "", "path ot save ESO-generated yamls")
-	generateCmd.Flags().String("kes-deployment-name", "kubernetes-external-secrets", "name of KES deployment object")
+	generateCmd.Flags().String("kes-deployment-name", "external-secrets-kubernetes-external-secrets", "name of KES deployment object")
 	generateCmd.Flags().String("kes-container-name", "kubernetes-external-secrets", "name of KES container object")
 	generateCmd.Flags().StringP("kes-namespace", "n", "default", "namespace where KES is installed")
 	generateCmd.Flags().String("target-namespace", "", "namespace to install files (not recommended - overrides KES-ExternalSecrets definitions)")
